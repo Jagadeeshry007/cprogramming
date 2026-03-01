@@ -1,10 +1,40 @@
-# Data types
+# Data types of C programming
 
-Data types are specific to processor type, meaning the size of the integer that processor can handle at a time.
+## What is a datatype?
+- Defines What kind of Value a variable can store
+- Defines how much memory is allocated
+- Defines the range of values
+- Defines the operations allowed
 
-All the data types discussed here are specific to x64 bit processor.
+``` c
+int age=20;
+float marks = 85.5;
+char grade = 'A';
+```
 
-## char: 1 byte 
+## Data types in C 
+
+Fallowing table is for a x32 bit CPU
+
++------------------------------+
+|Data Type | Used for | Size   |
++----------|----------|--------+
+|Char      | single   |        |
+|          | Character| 1 byte |
++----------|----------|--------+
+|int       | Integer  |        |
+|          | Character|4 byte  |
++----------|----------|--------+
+|float     | single   |        |
+|          |precision |4 byte  |
+|          |          |        |
++----------|----------|--------+
+|double    | Double   | 8 bytes|
+|          | Precision|        |
+|          |decimal   |        |
++----------|----------|--------+
+
+## character Type
 
 * character data type is also called as "one byte integer".
 
@@ -18,4 +48,35 @@ All the data types discussed here are specific to x64 bit processor.
 
         0110 0001
 
-## integer: 8 bytes
+### signed char
+- Range -128 to 127
+- uses 1 byte
+### unsigned char
+- Range 0 to 255
+- Uses 1 byte 
+
+## Integer Type 
+if sign is not mentioned - signed int is assumed.
+
+type of integers:
+- signed int-2 bytes
+- short int-2 bytes
+- unsigned int-2 bytes
+- long int-4 bytes
+- unsigned int-4 bytes
+
+## Floating Point Types
+Used to store decimal numbers
+
+### types
+float - 4 bytes
+double - 8 bytes
+long double - 10 bytes
+
+long gives more precision than float
+
+## Type Qualifiers
+- size qualifiers
+- sign qualifiers
+
+
