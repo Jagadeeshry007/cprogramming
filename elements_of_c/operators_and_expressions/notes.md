@@ -35,3 +35,22 @@ compound assignment
 x=x+5 -> x += 5
 x=x*5 -> x *= 5
 sum=sum/5 -> sum/= 5
+
+## Increment and Decrement operator
+* pre-increment and post-increment operators
+* Increment or operators can't be operated on expression or constants, only on the variables.
+
+### Pre-increment or decrement operator
+* In preincrement operator value of a variable is increased by 1 and then used in the expression
+
+++x -> x = x+1
+y=++x; -> x=x+1
+           y=x
+y=++x*z; x=x+1
+         y=x*z            
+
+--x -> x=x-1
+y=--x; -> x=x-1
+          y=x
+y=--x*z; x=x-1
+         y=x*z
