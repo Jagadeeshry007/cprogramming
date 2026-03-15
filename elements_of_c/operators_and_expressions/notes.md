@@ -54,3 +54,60 @@ y=--x; -> x=x-1
           y=x
 y=--x*z; x=x-1
          y=x*z
+
+# Relational operators
+
+* Relation operators are used to compare the two values
+* If result of the expression is True,the value is 1, otherwise 0
+
+==
+!=
+>
+<
+>=
+<=
+
+# Logical or Boolean operators
+* Logical operators are used to combine more than one expressions.
+* Operands may be variables, constants, expressions
+
+Logical AND &&
+Logical OR  ||
+Logical NOT !
+
+a=10, b=4, d=11
+
+e.g (a > b) && (b > d) -> FALSE -> 0
+e.g (a > b) || (b > d) -> TRUE -> 1
+e.g !(a > b) -> FALSE -> 0
+
+* While evaluating multiple statements, logical AND does not evaluate the second expression if first expression becomes FALSE
+if((a > b) && (++a)){
+    printf("%d", a);
+} else {
+    printf("%d", a);
+}
+
+* While evaluating multiple statements, logical OR does not evaluate the second or more expressions if first expression becomes TRUE
+
+# Conditional operator or ternary operator
+      ? :
+TestExpression? Expression1:Experssion2
+Evaluate Expression? if result is TRUE: if result is FALSE
+
+a=10, b=4, c
+c=a>b?a:b
+
+a>b?printf("a is greater than b", a++):printf("a is greater than b", b++)
+
+# Comma operator: ,
+
+* Comma operator is used for allowing mulitple expression in single line. expressions are evaluated from left to right, and the right most expression value becomes the value of the expression
+
+c = a, a++, a+b, ++a;
+c = (a, ++a, a--, --a, a++);
+
+# Size of operator
+* It gives the size of the operands in bytes
+
+e.g sizeof(a) -> 4
