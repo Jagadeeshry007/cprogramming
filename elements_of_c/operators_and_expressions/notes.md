@@ -60,12 +60,7 @@ y=--x*z; x=x-1
 * Relation operators are used to compare the two values
 * If result of the expression is True,the value is 1, otherwise 0
 
-==
-!=
->
-<
->=
-<=
+               ==, !=, >, <, >=, <=,
 
 # Logical or Boolean operators
 * Logical operators are used to combine more than one expressions.
@@ -111,3 +106,60 @@ c = (a, ++a, a--, --a, a++);
 * It gives the size of the operands in bytes
 
 e.g sizeof(a) -> 4
+
+* Size of data types is decided by the compiler and os based on the data model it uses.
+Linux, MacOs and Osx based system uses LP24. In the size of int is 4 bytes
+
+# Bitwise operators
+* C has the operators to manipulate data types at bit levels.
+
+* Below are supported bitwise operators in c
+
+bitwise and: &
+bitwise or: |
+one's complemenmt: ~
+left shift: <<
+right shift: >>
+xor: ^
+
+* bitwise opearators are only  used on Integers.
+
+# Type conversion
+
+* when a operation has mixed types of operands, data types have to converted to common data type.
+c support fallowing type type conversions in the expression.
+
+Implicit type conversion
+Explicit type conversion
+
+* Implicit type conversion
+- Automatic type conversion
+- Conversion in assignment
+
+* Automatic type conversion
+- Unary and binary
+
+* Type conversion in assignment
+ - The datatype of the right hand side is converted into type of the left hand type during assignment of different data types.
+
+ * Explicit type conversion
+
+ - In certain situation, implicit type conversion does not solve the problem for e.g
+
+ float z;
+ int x=20, y=3;
+ z = x/y;
+
+ In this kind of situation, c provides a operator called "cast operator"
+ Cast operator is an unary operater and used for converting a expression to a perticular data type *temperorily*
+
+ syntax: (datatype)expression
+
+Lets take above example.
+
+z=(float)(x/y);
+
+* Precedence and Associativity of Operators
+
+TODO:
+* Insert the associativity table with precedence order.
