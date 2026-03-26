@@ -21,7 +21,10 @@ y = -x;
 Key points:
 * Modulus operator can't be operated on floating point operands.
 * When both operands are integers, resulting value will be integer.
-TODO: Write remaining key points
+* when a prime number is divided then the decimal part will be truncated.
+* The second operand must be nonzero for division and modulus operation.
+* When both operand is floating point number then the result is also the floating point number.
+* when one operand is of integer type and other is of floating type. the resulting value will be a floating point type.
 
 ## Assignment
 '=' is asignment operator
