@@ -67,7 +67,7 @@ y=--x*z; x=x-1
 
 # Logical or Boolean operators
 * Logical operators are used to combine more than one expressions.
-* Operands may be variables, constants, expressions
+* Operands may be variables, constants, expressions.
 
 Logical AND &&
 Logical OR  ||
@@ -144,6 +144,8 @@ Explicit type conversion
 
 * Type conversion in assignment
  - The datatype of the right hand side is converted into type of the left hand type during assignment of different data types.
+* Type Hierarchy
+- char → int → float → double
 
  * Explicit type conversion
 
@@ -164,5 +166,21 @@ z=(float)(x/y);
 
 * Precedence and Associativity of Operators
 
-TODO:
-* Insert the associativity table with precedence order.
+| Precedence | Operator Type  | Operators                                                              | Associativity |              |              |
+| ---------- | -------------- | ---------------------------------------------------------------------- | ------------- | ------------ | ------------ |
+| 1          | Postfix        | `()`, `[]`, `.` , `->`, `++`, `--`                                     | Left → Right  |              |              |
+| 2          | Unary          | `+`, `-`, `!`, `~`, `++`, `--`, `*` (pointer), `&` (address), `sizeof` | Right → Left  |              |              |
+| 3          | Multiplicative | `*`, `/`, `%`                                                          | Left → Right  |              |              |
+| 4          | Additive       | `+`, `-`                                                               | Left → Right  |              |              |
+| 5          | Shift          | `<<`, `>>`                                                             | Left → Right  |              |              |
+| 6          | Relational     | `<`, `<=`, `>`, `>=`                                                   | Left → Right  |              |              |
+| 7          | Equality       | `==`, `!=`                                                             | Left → Right  |              |              |
+| 8          | Bitwise AND    | `&`                                                                    | Left → Right  |              |              |
+| 9          | Bitwise XOR    | `^`                                                                    | Left → Right  |              |              |
+| 10         | Bitwise OR     | `                                                                      | `             | Left → Right |              |
+| 11         | Logical AND    | `&&`                                                                   | Left → Right  |              |              |
+| 12         | Logical OR     | `                                                                      |               | `            | Left → Right |
+| 13         | Conditional    | `?:`                                                                   | Right → Left  |              |              |
+| 14         | Assignment     | `=`, `+=`, `-=`, `*=`, `/=`, `%=` , `<<=`, `>>=`, `&=`, `^=`, `=`      |Right → Left |              |
+| 15         | Comma          | `,`                                                                    | Left → Right  |              |              |
+
