@@ -57,3 +57,21 @@ do{
     statements1;
     ...
 } while()
+
+Main difference between while and do while is that, conditional block is executed at least once in do while and may not execute even once in while loop.
+
+for loop
+syntax:
+
+for (expression1;expression2;expression3)
+    statement1;
+
+for(expression1; expression2; expression3){
+    statement1;
+    statement2;
+    .........
+
+}
+expression1: initialisation of the loop variables
+expression2: condition check
+expression3: update of the loop variables
