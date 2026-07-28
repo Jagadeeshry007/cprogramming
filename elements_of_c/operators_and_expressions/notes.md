@@ -58,6 +58,30 @@ y=--x; -> x=x-1
 y=--x*z; x=x-1
          y=x*z
 
+### Post-increment and decrement operator
+* in post increment and decrement operator value of a variable is used in the expression and then it is incremented by 1
+
+1. x = 5
+
+  x++  → 5
+  x    → 6
+
+2. x = 10
+  y = x++
+
+  y → 10
+  x → 11
+
+1. x = 5
+
+  x--  → 5
+  x    → 4
+
+2. x = 10
+  y = x--
+
+  y → 10
+  x → 9
 # Relational operators
 
 * Relation operators are used to compare the two values
