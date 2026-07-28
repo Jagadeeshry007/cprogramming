@@ -1,10 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int n, m, dec,ex,d,rem;
+    int n,dec,ex,d,rem;
     printf("Enter the binary number:");
     scanf("%d", &n);
-    m=0;
     dec=0;
     ex=1;
     while(n>0)
