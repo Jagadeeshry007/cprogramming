@@ -26,3 +26,6 @@ refer the  CinDepth book
 * /v = moves the cursor to the next vertical tab.
 * /f = moves the cursor to the next page.
 
+## Format for integer input
+* % wd - d is the conversion specification character for integer value, 'w' is an integer number specifying maximum field width of input data. if the length of the field is more than specified width than the values are not stored correctly.
+
