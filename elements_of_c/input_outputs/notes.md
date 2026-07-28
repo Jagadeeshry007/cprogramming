@@ -17,3 +17,12 @@ refer the  CinDepth book
 
 ## Reading Input Data
 * scanf("control string", address1, address2);
+
+## escape sequences
+* /t = moves the cursor to the next tab.
+* /n = moves the cursor to the next line.
+* /r = moves to the beginning of the current line.
+* /a = alerts the user by a beep sound.
+* /v = moves the cursor to the next vertical tab.
+* /f = moves the cursor to the next page.
+
