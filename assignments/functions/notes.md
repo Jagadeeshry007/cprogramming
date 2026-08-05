@@ -52,3 +52,36 @@
 - for further process explanation refer p6.4
 
 - the function call cannot be write in left hand of an assignment operator
+
+## Return statement
+- Return is used as an immediate exit from the called function to the calling function and returns a value to the calling function.
+- Return is used anywhere inside the function
+- ` return; `-> it is used only in the void function or ` return (expression);`-> it returns a expression
+- if no return statement is there then program executes till the end of the closing braces. this is called the calling of the function.
+- expression returned is generally of the same type as specified in the function definition.
+- if the return type is different from the function definition then compiler to try to convert it to the appropriate type as specified in the func defn
+- If the return type is not void and no value is returned the value will be undefined or garbage value
+- A function can only return only one value
+
+## Function parameters and Arguments
+
+- These parameters are like the other local variables of the function which are created when the function call starts and destroyed when the function ends.
+- the parameters are automatically initiated with the values of the corresponding arguments of the function call
+- changes of the parameters doesn't affect the actual arguments.
+- `call-by-value` -> It is the process of passing the value from actual argument to the parameters without affecting the actual arguments.
+- `call-by-refrence` -> It is the process where the values of the actual argument changes by changing the values of the parameter
+- The number of the arguments not equal to the number of parameters in the definition then the behaviour is undefined
+- If there is a type mismatch between the argument and parameter then compiler tries to convert the argument to the the specified parameter. Otherwise, a garbage value is passed
+
+## Order of Evaluation of Function Arguments
+
+- The order of evaluation of arguments and subexpressions within the arguments are unspecified. 
+- It is better to avoid these types of argument expressions.
+
+## Function of Declaration
+- A func declaration is used to give a specific information to the compiler about the function so that it can check the func calls
+- If definition of the called function is placed before the calling function then there is no need of declaration.
+
+## main() function
+* refer textbook
+
