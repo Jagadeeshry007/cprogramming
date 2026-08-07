@@ -85,3 +85,24 @@
 ## main() function
 * refer textbook
 
+- > function declaration - **By the compiler**
+- > function definition - **By the programmer**
+- > function call - **By the operating system**
+
+## Library functions
+
+- > function declaration - **By the .h files header files**
+- > function definition - **predefined, or precompiled**
+- > function call - **By the programmer**
+
+## Local, Global and Static variables
+
+### Local variables
+- the variables which are defined within the body of a function or a block are local to that function so there are called as local variables
+
+### Global variables
+- refer example6.c
+- whenever there is a conflict between global and local variable, local variable takes precedence
+
+### Static variables
+- static type var_name;
