@@ -43,7 +43,6 @@
 - arg1, arg2 are called actual arguments
 - argument can be any expression, constants, variables or any function
 - If a function is called in a main function then main function will be calling function.
-
 #### the process of calling function:
 - when a function is called then the control passes to the calling function and compiler allocates storage space for the parameters of the function defn
 - actual arg are assigned to the formal parameters
