@@ -13,12 +13,13 @@ int main()
     {
         type(a, b, c);
         area(a, b, c);
-        return 0;
+        
     }
     else
     {
         printf("With these sides the triangle is not possible\n");
     }
+    return 0;
 }
 void type(float a, float b, float c)
 {
