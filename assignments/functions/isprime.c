@@ -10,15 +10,15 @@ int main()
 }
 int isprime(int a)
 {
-    int i=2,n;
+    int i=2;
     while(i<=sqrt(a))
     {
-        if(n%i==0)
+        if(a%i==0)
     {
-        i++;
+        return 0;
     }
+    i++;
     
-    return 0;
 }
 return 1;
 }
