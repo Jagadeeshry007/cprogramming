@@ -45,7 +45,7 @@
 - If a function is called in a main function then main function will be calling function.
 #### the process of calling function:
 - when a function is called then the control passes to the calling function and compiler allocates storage space for the parameters of the function defn
-- actual arg are assigned to the formal parameters
+- actual arg are assigned to the formal parameters.
 - if the arg and parameters are having type mismatch, then default conversions take place before assigning the value to the parameter
 - function body is executed till it encountered any return statement if there is no return statement then it runs till the closing brace is executed.
 - for further process explanation refer p6.4
