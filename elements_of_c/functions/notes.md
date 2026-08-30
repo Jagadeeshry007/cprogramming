@@ -29,7 +29,7 @@
   ```
 - returns the value specified
 - void -> returns nothing
-- if no return type is specified then int is assumed but it's not a good practice.
+- **if no return type is specified then int is assumed but it's not a good practice.**
 - parameter declarations - mentions the type and name of the parameter
 - these parameters are also known as formal parameters
 - a function can have any number of parameters or even no parameter
