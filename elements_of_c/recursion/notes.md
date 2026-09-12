@@ -29,3 +29,11 @@ void rec()
 
 - identifying the base case is very important because the function will keep on calling itself infinitely.
 
+- each recursive call should take us closer to the base case.
+
+- the number of times that a function calls itself is known as the recursive depth of that function.
+
+- the recursion has two phases
+1. winding phase.
+2. unwinding phase.
+
