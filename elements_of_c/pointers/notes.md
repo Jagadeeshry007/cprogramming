@@ -551,3 +551,11 @@ int **ppa =  &pa;
 * type of variable a is int,
 * type of variable pa is (int *). pointer to int.
 * type of variable ppa is (int **) or pointer to pointer to int.
+
+*** how to we access the value of a by using double pointer? ***
+- **ppa -> this gives the value of a
+- *ppa  -> this gives the value of pa
+- ppa   -> this gives the value of ppa
+
+## 12. Pointer and One Dimensional Arrays
+
