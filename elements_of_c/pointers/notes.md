@@ -534,3 +534,20 @@ if (p1 < p2)
 }
 ```
 
+## 11. Pointer to Pointer
+* Pointer to Pointer is also called as double pointer, is a pointer varialble  that stores the address of another pointer variable
+1. Variable: Stores a value.
+2. Pointer : Stores the address of the variable
+3. pointer to pointer : Stores of the address of the pointer
+* This is generally used while passing pointer to functions.
+> syntax: data_type **pptr;
+* here variable *pptr* is a pointer to pointer and it can point to a pointer pointing to a variable of type data_type.
+* The double asterisk is used to inform the compiler that this is a double pointer.
+```c
+int a = 5;
+int *pa = &a;
+int **ppa =  &pa;
+```
+* type of variable a is int,
+* type of variable pa is (int *). pointer to int.
+* type of variable ppa is (int **) or pointer to pointer to int.
